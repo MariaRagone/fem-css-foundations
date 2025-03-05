@@ -11,3 +11,12 @@
 .home .main_sub_heading {
     font-size: 40px;
 }
+
+@media (max-width: 800px) {
+  .home .main_heading {
+    font-size: 70px;
+  }
+  .home .main_sub_heading {
+    font-size: 24px;
+  }
+  }
