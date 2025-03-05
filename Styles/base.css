@@ -1,6 +1,7 @@
 :root {
     --color-primary: #ff7b45;
     --color-text-on-primary: #ffffff;
+    --color-text-on-secondary: #000000;
     --color-button-border: var(--color-text-on-primary);
 
     --color-button-primary-bg: var(--color-text-on-primary);
@@ -19,7 +20,16 @@ body {
 
 }
 
-p {
+.body--primary {
+    background-color: var(--color-primary);
+    color: var(--color-text-on-primary);
+}
+.body--secondary {
+    background-color: var(--color-text-on-primary);
+    color: var(--color-primary);
+}
+
+h2, p {
     margin: 0;
 }
 
@@ -60,6 +70,9 @@ margin-inline-end: 36px;
 font-size: 20px;
 }
 
+.main{
+    padding: 150px;
+}
 .button {
     font-size: 34px;
     padding: 0 64;
